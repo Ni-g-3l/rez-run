@@ -30,7 +30,7 @@ def get_current_developer_package():
 
 def setup_parser(parser, completions=False):
     parser.add_argument("cmd",help="Command to run")
-    parser.add_argument("args", nargs=argparse.REMAINDER)
+    parser.add_argument("args", nargs=argparse.REMAINDER, help="Command arguments")
 
 
 def command(opts, parser=None, extra_arg_groups=None):
