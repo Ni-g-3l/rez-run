@@ -8,7 +8,20 @@ This project was bootstrapped with [Rez run](https://github.com/Ni-g-3l/rez-init
 
 ## 📤 rez_run command
 
-**TODO**
+If your package declare some tools inside the **package.py** file like this :
+```python
+tools = [
+    "maya",
+    "mayapy",
+    "mayabatch"
+]
+```
+
+You can exec them directly from terminal by using the following command : 
+
+```bash
+rez run maya
+```
 
 ## ⚙️ Dev Commands
 
