@@ -10,7 +10,7 @@ install:
 
 uninstall:
 	@echo "------------------- UNINSTALL --------------------------- "
-	rez python -m pip uninstall rez_{{cookiecutter.extension_command}}
+	rez python -m pip uninstall rez_run
 	@echo "------------------------------------------------------- "
 
 clean:
